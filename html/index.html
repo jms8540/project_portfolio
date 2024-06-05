@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전민수 Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Reddit+Mono:wght@200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="flex">
+            <nav>
+                <ul class="navbar">
+                    <li><a data-target="home" href="#home">Home</a></li>
+                    <li><a data-target="about" href="#about">About</a></li>
+                    <li><a data-target="projects" href="#projects">Projects</a></li>
+                    <li><a data-target="blog_contact" href="#blog_contact">blog & contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="contents">
+            <section id="home" class="d_flex">
+                <div class="homeBox">
+                    <h1 class="homeText">Min Su, Jeon</h1>
+                    <p class="homeText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="arrow"><span>↓</span><span>↓</span><span>↓</span></div>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2 class="homeText">About Me</h2>
+                <div class="skillBox d_flex">
+                    <div class="innerBox">
+                        <h3>&#60;Skill&#62;</h3>
+                        <div class="innerItem">
+                            <div class="skill_icon"><img src="../img/html_icon.png" alt="skill_icon_img"></div>
+                            <div class="skill_icon"><img src="../img/css_icon.png" alt="skill_icon_img"></div>
+                            <div class="skill_icon"><img src="../img/js_icon.png" alt="skill_icon_img"></div>
+                            <div class="skill_icon"><img src="../img/java_icon.png" alt="skill_icon_img"></div>
+                            <div class="skill_icon"><img src="../img/jsp_icon.png" alt="skill_icon_img"></div>
+                            <div class="skill_icon"><img src="../img/python_icon.png" alt="skill_icon_img"></div>
+                        </div>
+                    </div>
+                    <div class="innerBox">
+                        <h3>&#60;Tools&#62;</h3>
+                        <div class="innerItem">
+                            <div class="skill_icon"><img src="../img/vscode_icon.png" alt="skill_icon_img"></div>
+                            <div class="skill_icon"><img src="../img/eclipse_icon.png" alt="skill_icon_img"></div>
+                            <div class="skill_icon"><img src="../img/oracle_icon.png" alt="skill_icon_img"></div>
+                            <div class="skill_icon"><img src="../img/figma_icon.png" alt="skill_icon_img"></div>
+                            <div class="skill_icon"><img src="../img/github.png" alt="skill_icon_img"></div>
+                        </div>
+                    </div>
+                    <div class="innerBox">
+                        <h3>&#60;Resume&#62;</h3>
+                        <div class="innerItem">
+                            <div class="innerItem_textBox">
+                                <p class="dongleText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class="dongleText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class="dongleText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class="dongleText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2 class="flex homeText">Projects</h2>
+                <div class="project_list">
+
+                    <div class="projectItem">
+                        <img src="../img/project_img.jpg" alt="project_img" class="projectBg_img">
+                        <div class="P_innerItem">
+                            <img src="../img/project_img.jpg" alt="project_img">
+                            <div class="P_textBox">
+                                <b class="p_title">title</b>
+                                <p class="p_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <a href="#" target='_blank'>Visit</a>
+                        </div>
+                    </div>
+
+                    <div class="projectItem">
+                        <img src="../img/project_img2.jpg" alt="project_img" class="projectBg_img">
+                        <div class="P_innerItem">
+                            <img src="../img/project_img2.jpg" alt="project_img">
+                            <div class="P_textBox">
+                                <b class="p_title">title</b>
+                                <p class="p_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <a href="#" target='_blank'>Visit</a>
+                        </div>
+                    </div>
+
+                    <div class="projectItem">
+                        <img src="../img/project_img3.png" alt="project_img" class="projectBg_img">
+                        <div class="P_innerItem">
+                            <img src="../img/project_img3.png" alt="project_img">
+                            <div class="P_textBox">
+                                <b class="p_title">title</b>
+                                <p class="p_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <a href="#" target='_blank'>Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="blog_contact">
+                <div class="blog_contactBox">
+                    <h2 class="homeText">Blog</h2>
+                    <ul class="Contact_ul Contact_ul1">
+                        <li><a target='_blank' href="https://github.com/jms8540"><img src="../img/github.png"
+                                    alt="contact-github"></a></li>
+                        <li><a target='_blank' href="https://career.programmers.co.kr/pr/358339_4243"><img
+                                    src="../img/programmers.png" alt="contact-solved"></a></li>
+                        <li><a target='_blank' href="https://solved.ac/profile/jms8540"><img src="../img/solved.png"
+                                    alt="contact-solved"></a></li>
+                        <li><a target='_blank' href="https://velog.io/@jms1031/posts"><img src="../img/velog.png"
+                                    alt="contact-valog"></a></li>
+                    </ul>
+
+                    <div class="line"></div>
+
+                    <h2 class="homeText">Contact</h2>
+                    <ul class="Contact_ul Contact_ul2">
+                        <li><a href="#" target='_blank'><img src="../img/koko.png" alt="contact-kotoc"></a></li>
+                        <li><a href="#" target='_blank'><img src="../img/instar.png" alt="contact-instar"></a></li>
+                        <li><a href="#" target='_blank'><img src="../img/discode.png" alt="contact-discode"></a></li>
+                        <li><a href="#" target='_blank'><img src="../img/mail.png" alt="contact-mail"></a></li>
+                        <!-- <li><a href="#"><img src="" alt="contact-tall"></a></li> -->
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Jeon-Minsu. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
