@@ -12,10 +12,12 @@ html,
 body {
     height: min-content;
     scroll-behavior: smooth;
-    /* overscroll-behavior:     none; */
+    overscroll-behavior: none;
     font-family: Arial, sans-serif;
 }
-
+body{
+    overflow-x: hidden;
+}
 
 /* textFont */
 .noto-serif-myanmar-bold,
@@ -100,7 +102,7 @@ nav a:hover {
 section {
     height: 100%;
     width: 100%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     text-align: center;
 }
 
@@ -231,14 +233,19 @@ section {
 }
 
 .project_list {
+    position: relative;
     width: min-content;
     height: 80vh;
+    width: 100%;
     display: flex;
     align-items: center;
+
 }
 
 .projectItem {
-    position: relative;
+    position: absolute;
+    
+
     height: 100%;
     width: 100vw;
 
